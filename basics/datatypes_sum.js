@@ -29,3 +29,27 @@ console.log(typeof(bigNum));
 console.log(typeof(myFunc));
 console.log(typeof(heroes))
 console.log(typeof myObj)
+
+
+//********************************* */
+// stack(primitive)  heap (non primitive)
+
+let myName="Raj"
+
+let name=myName
+name="Natraj" 
+console.log(name);//it changes to natraj as the name got copy of myName
+
+console.log(myName);// it doesnt changes as the the copy value will not affect it 
+
+
+let user={
+    name:"Raj",
+    emailId:"natrajkashyap.axl"
+}
+
+let userTwo=user
+userTwo.emailId="natraj.axl"
+
+console.log(userTwo);
+console.log(user);
