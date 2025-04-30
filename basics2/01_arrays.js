@@ -1,6 +1,6 @@
 //array
 
- const myArr=[1,2,3,4,5,6]
+ const myArr=[0,1,2,3,4,5]
 
 // console.log(myArr[0]);
 
@@ -31,8 +31,13 @@
 
 
 
-const myn1= myArr.slice(1,3)//return slice of the array
+const myn1= myArr.slice(1,3)//return slice of the array by not 
+// deleting the element, also the last range is excluded
+console.log("A ", myArr);
+
 console.log(myn1);
 console.log("B ", myArr);
 
-
+const myn2=myArr.splice(1,3)//it takes the full range and take the element from the array permantaly specified in the range and store in the diff array
+console.log("C ", myArr);
+console.log(myn2);
