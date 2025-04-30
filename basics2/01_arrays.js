@@ -27,7 +27,7 @@
 // console.log(newArr);
 
 // console.log(arr);
-//slice splie
+//slice splice
 
 
 
